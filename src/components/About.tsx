@@ -137,7 +137,7 @@ export default function About() {
           >
             <div className="flex items-center gap-4">
               <div className="relative h-20 w-20 overflow-hidden rounded-2xl border border-white/10">
-                <Image src="/malith.jpeg" alt="Malith Bandara" fill className="object-cover" />
+                <Image src="/Uchith.jpeg" alt="Uchith Chethana" fill className="object-cover" />
               </div>
               <div>
                 <div className="text-white text-xl font-semibold">Uchith Chethana</div>

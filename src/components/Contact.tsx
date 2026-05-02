@@ -1,9 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { FiGithub, FiLinkedin, FiMail, FiMapPin, FiPhone } from "react-icons/fi";
+import { IoQrCodeOutline } from "react-icons/io5";
 
 export default function Contact() {
+  const githubUrl = "https://github.com/UchithChethana";
+  const qrCodeSrc = `/api/qr?text=${encodeURIComponent(githubUrl)}`;
+
   const contactItems = [
     {
       label: "Email",
@@ -32,8 +37,15 @@ export default function Contact() {
     {
       label: "GitHub",
       value: "github.com/UchithChethana",
-      href: "https://github.com/UchithChethana",
+      href: githubUrl,
       icon: FiGithub,
+    },
+    {
+      label: "QR Code",
+      value: "Scan to connect",
+      href: qrCodeSrc,
+      icon: IoQrCodeOutline,
+      openInNewTab: true,
     },
   ];
 
@@ -68,28 +80,32 @@ export default function Contact() {
             </p>
 
             <ul className="mt-8 space-y-4 text-white/75">
-              {contactItems.map(({ label, value, href, icon: Icon }) => (
-                <li key={label} className="flex items-start gap-4">
-                  <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-blue-400">
-                    <Icon className="h-5 w-5" />
-                  </span>
-                  <div>
-                    <div className="text-sm text-white/50">{label}</div>
-                    {href ? (
-                      <a
-                        href={href}
-                        className="font-medium text-white/85 transition hover:text-white"
-                        target={href.startsWith("http") ? "_blank" : undefined}
-                        rel={href.startsWith("http") ? "noreferrer" : undefined}
-                      >
-                        {value}
-                      </a>
-                    ) : (
-                      <div className="font-medium text-white/85">{value}</div>
-                    )}
-                  </div>
-                </li>
-              ))}
+              {contactItems.map(({ label, value, href, icon: Icon, openInNewTab }) => {
+                const shouldOpenInNewTab = Boolean(href && (openInNewTab || href.startsWith("http")));
+
+                return (
+                  <li key={label} className="flex items-start gap-4">
+                    <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-blue-400">
+                      <Icon className="h-5 w-5" />
+                    </span>
+                    <div>
+                      <div className="text-sm text-white/50">{label}</div>
+                      {href ? (
+                        <a
+                          href={href}
+                          className="font-medium text-white/85 transition hover:text-white"
+                          target={shouldOpenInNewTab ? "_blank" : undefined}
+                          rel={shouldOpenInNewTab ? "noreferrer" : undefined}
+                        >
+                          {value}
+                        </a>
+                      ) : (
+                        <div className="font-medium text-white/85">{value}</div>
+                      )}
+                    </div>
+                  </li>
+                );
+              })}
             </ul>
           </motion.div>
 
@@ -143,6 +159,30 @@ export default function Contact() {
                   className="rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-white/90 transition hover:bg-white/10"
                 >
                   Connect on LinkedIn
+                </a>
+              </div>
+
+              <div className="mt-8 rounded-2xl border border-white/10 bg-black/25 p-6">
+                <h4 className="text-lg font-semibold text-white">Scan My GitHub QR</h4>
+                <p className="mt-2 text-sm text-white/65">
+                  Scan this code to open my GitHub profile instantly.
+                </p>
+                <a
+                  href={githubUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-5 inline-flex rounded-xl border border-white/15 bg-white p-3 transition hover:bg-white/90"
+                  aria-label="Open GitHub profile"
+                >
+                  <Image
+                    src={qrCodeSrc}
+                    alt="QR code for Uchith Chethana GitHub profile"
+                    width={168}
+                    height={168}
+                    className="h-40 w-40 rounded-md"
+                    unoptimized
+                    loading="lazy"
+                  />
                 </a>
               </div>
 

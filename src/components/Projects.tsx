@@ -54,6 +54,16 @@ const projects: Project[] = [
       "Applied computing principles in a practical project",
     ],
   },
+  {
+    title: "My Todo App",
+    description:
+      "",
+    tech: ["Python", "Jupyter Notebook", "OpenCV", "NumPy"],
+    github: "https://github.com/UchithChethana/MyTodoApp.git",
+    highlights: [
+        "A simple todo app built with Python and Flask",  
+    ],
+  },
 ];
 
 function uniq<T>(arr: T[]) {

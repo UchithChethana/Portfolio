@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { FiDownload, FiFileText, FiExternalLink } from "react-icons/fi";
 
 export default function CVSection() {
-  const cvPdf = "/Malith_Bandara_CV.pdf";
+  const cvPdf = "/Uchith_cv.pdf";
 
   return (
     <section id="cv" className="relative overflow-hidden bg-black py-24 px-6">
@@ -80,7 +80,7 @@ export default function CVSection() {
             <iframe
               src={cvPdf}
               className="w-full h-full"
-              title="Malith Bandara CV"
+              title="Uchith Chethana CV"
             />
           </div>
         </motion.div>

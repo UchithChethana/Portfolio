@@ -175,8 +175,8 @@ export default function Hero() {
               whileTap={{ scale: 0.98 }}
             >
               <Image
-                src="/malith.jpeg"
-                alt="Malith Bandara"
+                src="/Uchith.jpeg"
+                alt="Uchith Chethana"
                 fill
                 priority
                 className="object-cover"
@@ -188,15 +188,7 @@ export default function Hero() {
               />
             </motion.div>
 
-            <div className="absolute -bottom-4 left-1/2 w-[90%] -translate-x-1/2 rounded-2xl border border-white/10 bg-black/65 p-4 text-center backdrop-blur">
-              <div className="text-sm uppercase tracking-[0.24em] text-blue-300">
-                Academic Snapshot
-              </div>
-              <p className="mt-2 text-sm leading-relaxed text-white/75">
-                SLIIT undergraduate documenting project work, reflection, and
-                evidence of continuous learning.
-              </p>
-            </div>
+            {/*  */}
           </motion.div>
         </div>
       </div>
