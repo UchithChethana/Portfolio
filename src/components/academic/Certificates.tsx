@@ -35,73 +35,68 @@ export default function Certificates() {
   const certs: Cert[] = useMemo(
     () => [
       {
-        title: "Python for Beginners",
+        title: "Python Programming",
         issuer: "University of Moratuwa",
         date: "2024",
         type: "Technical",
         skillImproved: "Python fundamentals",
         proof:
           "Strengthened core Python syntax, data types, control flow, and problem solving.",
-        file: "/certificates/Pythonbeginners.pdf",
+        file: "/certificates/cer2.jpeg",
       },
       {
-        title: "Python Programming",
+        title: "Python for Beginners",
         issuer: "University of Moratuwa",
         date: "2024",
         type: "Technical",
         skillImproved: "Python programming practice",
         proof: "Improved hands-on programming and writing cleaner, reusable code.",
-        file: "/certificates/PythonProgramming.pdf",
+        file: "/certificates/cer3.jpeg",
       },
       {
-        title: "GE Aerospace – Explore Digital Technology (Forage)",
-        issuer: "Forage / GE Aerospace",
-        date: "Dec 2024",
+        title: "Adobe Photoshop Advanced",
+        issuer: "PhotoShop",
+        date: "2022",
         type: "Technical",
-        skillImproved: "Frontend + requirements translation",
-        proof:
-          "Built a Vue UI demo and drafted technical requirements aligned to business needs.",
-        file: "/certificates/GEaerospace.pdf",
+        skillImproved: "Image editing practice",
+        proof: "Improved hands-on programming and writing cleaner, reusable code.",
+        file: "/certificates/cer1.jpeg",
       },
-      {
-        title: "Skyscanner – Front-End Software Engineering (Forage)",
-        issuer: "Forage / Skyscanner",
-        date: "Dec 2024",
-        type: "Technical",
-        skillImproved: "React UI development",
-        proof:
-          "Built a travel date picker using Backpack components and automated tests.",
-        file: "/certificates/skyscanner.pdf", // or .jpg
-      },
-      {
-        title: "Goldman Sachs – Governance Analyst (Forage)",
-        issuer: "Forage / Goldman Sachs",
-        date: "Dec 2024",
-        type: "Technical",
-        skillImproved: "Security awareness (password hashing)",
-        proof:
-          "Identified weak hashing, tested using Hashcat, and proposed security uplifts.",
-        file: "/certificates/goldsmansachs.pdf",
-      },
-      {
-        title: "Verizon – Cloud VPN Simulation (Forage)",
-        issuer: "Forage / Verizon",
-        date: "Dec 2024",
-        type: "Technical",
-        skillImproved: "Cloud-native traits & security",
-        proof:
-          "Tested VPN traits (redundancy, resiliency, least privilege) and presented findings.",
-        file: "/certificates/verizon.pdf",
-      },
-      {
-        title: "Software Engineering Job Simulation",
-        issuer: "New York Jobs CEO Council / Forage",
+       {
+        title: "Higher Deploma in Information Technology",
+        issuer: "Sliit",
         date: "2024",
         type: "Technical",
-        skillImproved: "Problem solving and software engineering workflow",
-        proof:
-          "Practiced structured engineering tasks in a simulated environment and connected technical output to business expectations.",
-        file: "/certificates/newyork.pdf",
+        skillImproved: "Information Technology",
+        proof: "Improved hands-on programming and writing cleaner, reusable code.",
+        file: "/certificates/cer4.jpeg",
+      },
+      {
+        title: "CodeFest Competition",
+        issuer: "Sliit",
+        date: "2025",
+        type: "Technical",
+        skillImproved: "Information Technology",
+        proof: "Improved hands-on programming and writing cleaner, reusable code.",
+        file: "/certificates/cer5.jpeg",
+      },
+      {
+        title: "Canvas app in Power Platform",
+        issuer: "Microsoft",
+        date: "2026",
+        type: "Technical",
+        skillImproved: "Information Technology",
+        proof: "Improved hands-on programming and writing cleaner, reusable code.",
+        file: "/certificates/cer6.jpeg",
+      },
+      {
+        title: "Manage Canvas app in Power Platform",
+        issuer: "Microsoft",
+        date: "2026",
+        type: "Technical",
+        skillImproved: "Information Technology",
+        proof: "Improved hands-on programming and writing cleaner, reusable code.",
+        file: "/certificates/cer7.jpeg",
       },
     ],
     []
@@ -172,7 +167,7 @@ export default function Certificates() {
               <input
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="Search certificates (e.g., Python, Forage, Security)..."
+                placeholder="Search certificates (e.g., Python, Microsoft, Power Platform)..."
                 className="w-full rounded-xl bg-slate-900/40 border border-slate-800 pl-11 pr-10 py-3 text-slate-200 placeholder:text-slate-500 outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 transition"
               />
               {query ? (
@@ -404,14 +399,7 @@ export default function Certificates() {
                     {open.proof}
                   </p>
 
-                  <div className="mt-6 rounded-xl border border-slate-800 bg-black/30 p-4">
-                    <p className="text-xs text-slate-400">Use in PPW marking</p>
-                    <ul className="mt-2 space-y-2 text-sm text-slate-200">
-                      <li>• Certificate preview included</li>
-                      <li>• Issuer and date included</li>
-                      <li>• Skill improved clearly stated</li>
-                    </ul>
-                  </div>
+                
                 </div>
               </div>
             </motion.div>

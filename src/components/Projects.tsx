@@ -19,11 +19,11 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "AI-Dress-Mart",
+    title: "Grocerry Delivery App",
     description:
-      "An exploratory academic-style full-stack project that studies how AI-themed e-commerce experiences can be structured across frontend and backend layers.",
+      "A microservices-based grocery delivery application built with the MERN stack, focusing on scalable architecture and real-world deployment practices.",
     tech: ["JavaScript", "MERN", "React", "Node.js", "MongoDB"],
-    github: "https://github.com/it22249166/AI-Dress-Mart",
+    github: "https://github.com/yasasArt/Grocery-Delivery-Microservices.git",
     highlights: [
       "Frontend and backend separation",
       "Catalog and shopping flow structure",
@@ -31,27 +31,27 @@ const projects: Project[] = [
     ],
   },
   {
-    title: "Foods-Ordering-App",
+    title: "Job Change Predictor",
     description:
-      "A full-stack ordering system used to practice client-server separation, API integration, and deployment-oriented thinking with Docker.",
+      "A machine learning project that predicts job changes based on a dataset of employee attributes, utilizing supervised learning algorithms to analyze patterns and provide insights into career transitions.",
     tech: ["JavaScript", "React", "Node.js", "Docker", "MongoDB"],
-    github: "https://github.com/it22249166/Foods-Ordering-App",
+    github: "https://github.com/asitha-dharmarathne/Job-Change-Prediction-Using-Supervised-Learning.git",
     highlights: [
-      "Client and server project structure",
-      "Docker Compose workflow",
-      "Deployment-focused README guidance",
+      "Data preprocessing and feature engineering",
+      "Implemented multiple supervised learning algorithms",
+      "Evaluated model performance with metrics and visualizations",
     ],
   },
   {
-    title: "Image Processing Tool",
+    title: "Learning Plus",
     description:
       "A Python-based applied computing project focused on image upload, transformation, and real-time experimentation with core image-processing concepts.",
     tech: ["Python", "Jupyter Notebook", "OpenCV", "NumPy"],
-    github: "https://github.com/it22249166/Image-Processing-Tool.git",
+    github: "https://github.com/asitha-dharmarathne/learning-plus.git",
     highlights: [
-      "Real-time filter experimentation",
-      "Image upload and preview workflow",
-      "OpenCV-based transformations",
+      "Image manipulation techniques",
+      "Real-time experimentation with image processing concepts",
+      "Applied computing principles in a practical project",
     ],
   },
 ];

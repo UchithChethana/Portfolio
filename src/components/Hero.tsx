@@ -65,12 +65,12 @@ export default function Hero() {
         >
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-blue-500/25 bg-blue-600/10 px-4 py-2 text-sm text-blue-200">
             <FiBookOpen />
-            BSc (Hons) Software Engineering Undergraduate
+            BSc (Hons) Information Technology Undergraduate
           </div>
 
           <h1 className="mb-6 text-5xl font-bold text-white md:text-6xl">
             {" "}
-            <span className="text-blue-500">Malith Bandara</span>
+            <span className="text-blue-500">Uchith Chethana</span>
           </h1>
 
           <p className="mb-8 max-w-2xl text-lg text-gray-400 md:text-xl">

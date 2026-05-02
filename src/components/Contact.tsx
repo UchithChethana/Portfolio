@@ -7,32 +7,32 @@ export default function Contact() {
   const contactItems = [
     {
       label: "Email",
-      value: "malithb072@gmail.com",
-      href: "mailto:malithb072@gmail.com",
+      value: "wgucgjayarathna9898@gmail.com",
+      href: "mailto:wgucgjayarathna9898@gmail.com",
       icon: FiMail,
     },
     {
       label: "Phone",
-      value: "+94 74 102 1815",
-      href: "tel:+94741021815",
+      value: "+94 77 22 84 656",
+      href: "tel:+94772284656",
       icon: FiPhone,
     },
     {
       label: "Location",
-      value: "Ratnapura, Sri Lanka",
+      value: "Kurunegala, Sri Lanka",
       href: undefined,
       icon: FiMapPin,
     },
     {
       label: "LinkedIn",
-      value: "linkedin.com/in/malith-bandara-8681aa301",
-      href: "https://www.linkedin.com/in/malith-bandara-8681aa301",
+      value: "linkedin.com/in/uchith-chethana-8681aa301",
+      href: "https://www.linkedin.com/in/uchith-chethana-8681aa301",
       icon: FiLinkedin,
     },
     {
       label: "GitHub",
-      value: "github.com/it22249166",
-      href: "https://github.com/it22249166",
+      value: "github.com/UchithChethana",
+      href: "https://github.com/UchithChethana",
       icon: FiGithub,
     },
   ];
@@ -130,14 +130,14 @@ export default function Contact() {
 
               <div className="mt-8 flex flex-wrap gap-3">
                 <a
-                  href="mailto:malithb072@gmail.com?subject=Academic%20Portfolio%20Inquiry"
+                  href="mailto:wgucgjayarathna9898@gmail.com?subject=Academic%20Portfolio%20Inquiry"
                   className="rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 px-5 py-3 font-semibold text-white transition hover:brightness-110"
                 >
                   Send Email
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/malith-bandara-8681aa301"
+                  href="https://www.linkedin.com/in/uchith-chethana-8681aa301"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-white/90 transition hover:bg-white/10"

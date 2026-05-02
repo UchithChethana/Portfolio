@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Malith Bandara | Academic Portfolio",
+  title: "Uchith Chethana | Academic Portfolio",
   description:
-    "Malith Bandara, featuring academic projects, reflective journal entries, a career development plan, certificates, and supporting CV evidence.",
+    "Uchith Chethana, featuring academic projects, reflective journal entries, a career development plan, certificates, and supporting CV evidence.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

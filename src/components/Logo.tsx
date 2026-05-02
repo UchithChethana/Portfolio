@@ -24,7 +24,7 @@ export default function SignatureLogo({
         height={s}
         viewBox="0 0 64 64"
         role="img"
-        aria-label="MB Signature Logo"
+        aria-label="UC Signature Logo"
         className="shrink-0"
         whileHover={{ rotate: -4, scale: 1.03 }}
         whileTap={{ scale: 0.98 }}
@@ -146,7 +146,7 @@ export default function SignatureLogo({
       {withText && (
         <div className="leading-tight">
           <div className="text-white font-semibold text-lg tracking-tight">
-            Malith<span className="text-blue-500">.</span>
+            Uchith<span className="text-blue-500">.</span>
           </div>
           <div className="text-slate-400 text-xs">Academic Portfolio</div>
         </div>

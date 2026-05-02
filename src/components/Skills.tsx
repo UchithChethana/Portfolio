@@ -40,7 +40,6 @@ const SKILLS: Skill[] = [
   { name: "Next.js", level: 88, category: "Frontend", hint: "App Router, SSR/SSG, routing patterns", icon: SiNextdotjs, featured: true },
   { name: "TypeScript", level: 86, category: "Frontend", hint: "Types, generics, safer scalable code", icon: SiTypescript, featured: true },
   { name: "Tailwind CSS", level: 90, category: "Frontend", hint: "Responsive UI, design systems, layouts", icon: SiTailwindcss, featured: true },
-  { name: "Redux / Context", level: 78, category: "Frontend", hint: "Global state management", icon: SiRedux },
   { name: "UI/UX (Figma)", level: 72, category: "Frontend", hint: "Wireframes, clean layouts, UX thinking", icon: SiFigma },
 
   // Backend
@@ -57,10 +56,7 @@ const SKILLS: Skill[] = [
   // Tools
   { name: "Git", level: 86, category: "Tools", hint: "Branching, PR workflow, collaboration", icon: SiGit, featured: true },
   { name: "GitHub", level: 85, category: "Tools", hint: "Repo management, actions basics", icon: SiGithub },
-  { name: "Docker", level: 76, category: "Tools", hint: "Containers, Compose, local deployments", icon: SiDocker, featured: true },
   { name: "Postman", level: 84, category: "Tools", hint: "API testing, debugging collections", icon: SiPostman },
-  { name: "Vercel", level: 74, category: "Tools", hint: "Deploying Next.js projects", icon: SiVercel },
-  { name: "Jest", level: 72, category: "Tools", hint: "Unit tests, mocks, test structure", icon: SiJest },
   { name: "Testing Library", level: 70, category: "Tools", hint: "Component testing best practices", icon: SiTestinglibrary },
 ];
 
@@ -220,7 +216,7 @@ export default function Skills() {
               <input
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="Search learning areas (e.g., Docker, Next, JWT...)"
+                placeholder="Search learning areas (e.g., React, Next, JWT...)"
                 className="w-full rounded-xl bg-black/40 border border-slate-800 px-4 py-3 text-slate-200 placeholder:text-slate-500 outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 transition"
               />
               {query ? (
