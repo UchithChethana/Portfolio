@@ -26,8 +26,9 @@ export default function CareerPlan() {
           </h2>
           <div className="mx-auto mt-4 h-1 w-16 bg-blue-500 rounded-full" />
           <p className="mt-6 text-white/70 max-w-3xl mx-auto leading-relaxed">
-            A structured roadmap that connects my academic progress with the
-            technical and professional capabilities I want to build over time.
+            This plan shows how I aim to grow as an Information Technology undergraduate by
+            improving my academic performance, building practical technical skills, and preparing
+            step by step for a successful professional career in the software industry.
           </p>
         </motion.div>
 
@@ -37,15 +38,15 @@ export default function CareerPlan() {
           <div className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur p-8">
             <div className="flex items-center gap-3 text-blue-400 mb-4">
               <FiClock />
-              <h3 className="font-semibold text-lg">Short-Term (1–2 Years)</h3>
+              <h3 className="font-semibold text-lg">Short-Term Goals</h3>
             </div>
 
             <ul className="space-y-3 text-white/75">
-              <li>✔ Maintain strong academic performance</li>
-              <li>✔ Complete high-quality portfolio and capstone-style projects</li>
-              <li>✔ Strengthen testing and system design fundamentals</li>
-              <li>✔ Deploy polished full-stack applications</li>
-              <li>✔ Earn at least one cloud or testing certification</li>
+              <li>✔ Maintain good academic performance and improve subject knowledge</li>
+              <li>✔ Successfully complete my final year research project and portfolio</li>
+              <li>✔ Strengthen my skills in Python, Java, React, Next.js, and database development</li>
+              <li>✔ Improve my understanding of machine learning and computer vision concepts</li>
+              <li>✔ Build more practical projects that solve real-world problems</li>
             </ul>
           </div>
 
@@ -53,15 +54,15 @@ export default function CareerPlan() {
           <div className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur p-8">
             <div className="flex items-center gap-3 text-indigo-400 mb-4">
               <FiTrendingUp />
-              <h3 className="font-semibold text-lg">Mid-Term (3–5 Years)</h3>
+              <h3 className="font-semibold text-lg">Mid-Term Goals</h3>
             </div>
 
             <ul className="space-y-3 text-white/75">
-              <li>✔ Become a dependable full-stack engineer</li>
-              <li>✔ Lead small technical features or academic-to-industry transitions</li>
-              <li>✔ Gain stronger knowledge of scalable architecture</li>
-              <li>✔ Contribute to open-source or community projects</li>
-              <li>✔ Support peers through collaboration and mentoring</li>
+              <li>✔ Gain industry experience through internships or entry-level opportunities</li>
+              <li>✔ Become more confident in full-stack application development</li>
+              <li>✔ Improve problem-solving, debugging, and software design skills</li>
+              <li>✔ Learn how to deploy, test, and maintain complete software solutions</li>
+              <li>✔ Build a strong professional profile with projects, certificates, and practical experience</li>
             </ul>
           </div>
 
@@ -69,15 +70,15 @@ export default function CareerPlan() {
           <div className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur p-8">
             <div className="flex items-center gap-3 text-cyan-400 mb-4">
               <FiTarget />
-              <h3 className="font-semibold text-lg">Long-Term (5+ Years)</h3>
+              <h3 className="font-semibold text-lg">Long-Term Goals</h3>
             </div>
 
             <ul className="space-y-3 text-white/75">
-              <li>✔ Grow into a senior engineering role</li>
-              <li>✔ Architect scalable distributed systems</li>
-              <li>✔ Build impactful digital products with clear user value</li>
-              <li>✔ Keep adapting to emerging technologies</li>
-              <li>✔ Explore product leadership or entrepreneurial paths</li>
+              <li>✔ Grow into a skilled software engineer with strong technical and professional abilities</li>
+              <li>✔ Work on advanced software systems and intelligent technology solutions</li>
+              <li>✔ Contribute to meaningful projects in software engineering, AI, or automation fields</li>
+              <li>✔ Continue learning new technologies to stay updated in the industry</li>
+              <li>✔ Build a successful and stable career with continuous personal and professional growth</li>
             </ul>
           </div>
         </div>
@@ -91,33 +92,33 @@ export default function CareerPlan() {
           <div className="grid md:grid-cols-2 gap-8 text-white/75">
             <div>
               <h4 className="font-semibold text-white mb-3">
-                Areas to Improve
+                Areas I Need to Improve
               </h4>
               <ul className="space-y-2">
-                <li>• Advanced system design principles</li>
-                <li>• Automated testing & CI/CD pipelines</li>
-                <li>• Cloud deployment (AWS / Azure)</li>
-                <li>• Performance optimization & monitoring</li>
+                <li>• Advanced programming and software design practices</li>
+                <li>• Testing, debugging, and deployment knowledge</li>
+                <li>• Machine learning and computer vision implementation skills</li>
+                <li>• Communication, documentation, and professional presentation</li>
               </ul>
             </div>
 
             <div>
               <h4 className="font-semibold text-white mb-3">
-                Action Strategy
+                My Action Plan
               </h4>
               <ul className="space-y-2">
-                <li>• Complete structured online certifications</li>
-                <li>• Build and deploy scalable projects</li>
-                <li>• Study system design case studies weekly</li>
-                <li>• Seek mentorship and continuous feedback</li>
+                <li>• Practice regularly through academic and personal projects</li>
+                <li>• Follow online courses and certifications to improve technical knowledge</li>
+                <li>• Build complete applications and research-based solutions step by step</li>
+                <li>• Continuously update my portfolio with new learning and achievements</li>
               </ul>
             </div>
           </div>
 
           <p className="mt-8 text-sm text-white/60 leading-relaxed">
-            This development plan ensures continuous growth through structured
-            learning, practical application, and measurable progress tracking.
-            It aligns my academic journey with real industry expectations.
+            This plan helps me stay focused on both academic success and career preparation.
+            It gives me a clear direction for improving my skills, gaining practical experience,
+            and becoming ready for the professional software industry.
           </p>
         </div>
       </div>

@@ -70,37 +70,37 @@ export default function About() {
   );
 
   const timeline: TimelineItem[] = useMemo(
-    () => [
-      {
-        title: "BSc (Hons) In Information Technology",
-        org: "SLIIT",
-        period: "2022 – Present",
-        points: [
-          "Developing fundamentals in programming, software design, databases, and engineering process.",
-          "Building a stronger academic identity through project work, reflection, and evidence-based learning.",
-        ],
-      },
-      {
-        title: "Applied Project Development",
-        org: "Coursework & Self-Directed Practice",
-        period: "2024 – 2025",
-        points: [
-          "Used React, Next.js, Node.js, and Python to turn classroom concepts into working applications.",
-          "Practiced UI design, API structure, image processing, and full-stack feature delivery.",
-        ],
-      },
-      {
-        title: "Continuous Learning Evidence",
-        org: "Certificates, Reflection, and Career Planning",
-        period: "Current Focus",
-        points: [
-          "Documented learning progress with weekly reflective journal entries for PPW.",
-          "Collected certificates and a structured career plan to demonstrate growth beyond individual assignments.",
-        ],
-      },
-    ],
-    []
-  );
+  () => [
+    {
+      title: "BSc (Hons) in Information Technology",
+      org: "SLIIT",
+      period: "2022 – Present",
+      points: [
+        "Building a strong foundation in programming, software engineering, databases, networking, and web technologies.",
+        "Strengthening academic and technical knowledge through coursework, practical labs, team projects, and research-based learning.",
+      ],
+    },
+    {
+      title: "Research & Final Year Project Development",
+      org: "Apparel Manufacturing Automation / Computer Vision",
+      period: "2024 – Present",
+      points: [
+        "Working on AI-based real-time garment analysis solutions, including garment tracking, size measurement, colour detection, and production monitoring.",
+        "Applying computer vision, machine learning, and image processing concepts to solve real-world problems in apparel manufacturing environments.",
+      ],
+    },
+    {
+      title: "Practical Software Development Journey",
+      org: "Coursework, Personal Projects, and Self-Learning",
+      period: "2023 – Present",
+      points: [
+        "Developed applications using React, Next.js, Node.js, Java, Python, and MySQL while improving both frontend and backend development skills.",
+        "Gained hands-on experience in UI design, API development, database integration, debugging, and full-stack project implementation.",
+      ],
+    },
+  ],
+  []
+);
 
   return (
     <section id="about" className="relative overflow-hidden bg-black py-24 px-6">
@@ -294,7 +294,7 @@ export default function About() {
                 detail: "Applied software engineering work using full-stack and Python-based tools.",
               },
               {
-                title: "Reflective Journal",
+                title: "Reflective Journal",  
                 detail: "Weekly PPW reflections showing what I learned, applied, and improved.",
               },
               {
