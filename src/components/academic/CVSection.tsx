@@ -7,32 +7,32 @@ export default function CVSection() {
   const cvPdf = "/Uchith_cv.pdf";
 
   return (
-    <section id="cv" className="relative overflow-hidden bg-black py-24 px-6">
+    <section id="cv" className="relative overflow-hidden bg-black px-6 py-24">
       <div aria-hidden className="pointer-events-none absolute inset-0">
-        <div className="absolute -top-24 -left-24 h-72 w-72 rounded-full bg-cyan-500/10 blur-3xl" />
+        <div className="absolute -left-24 -top-24 h-72 w-72 rounded-full bg-cyan-500/10 blur-3xl" />
         <div className="absolute -bottom-28 -right-28 h-80 w-80 rounded-full bg-blue-600/15 blur-3xl" />
       </div>
 
-      <div className="relative max-w-6xl mx-auto">
-        {/* Header */}
+      <div className="relative mx-auto max-w-6xl">
         <motion.div
           initial={{ opacity: 0, y: 18 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-12"
+          className="mb-12 text-center"
         >
           <div className="inline-flex items-center gap-2 rounded-full border border-blue-600/30 bg-blue-600/10 px-4 py-2 text-blue-200">
             <FiFileText />
             Supporting Evidence
           </div>
 
-          <h2 className="mt-5 text-4xl md:text-5xl font-extrabold text-white">
+          <h2 className="mt-5 text-4xl font-extrabold text-white md:text-5xl">
             Curriculum <span className="text-blue-500">Vitae</span>
           </h2>
+
           <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-blue-500" />
 
-          <p className="mt-6 text-white/70 max-w-3xl mx-auto leading-relaxed">
+          <p className="mx-auto mt-6 max-w-3xl leading-relaxed text-white/70">
             My CV is included as part of this academic portfolio so that formal
             qualifications, education history, and supporting details are easy to review.
           </p>
@@ -43,12 +43,12 @@ export default function CVSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.45 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-3"
+          className="flex flex-col items-center justify-center gap-3 sm:flex-row"
         >
           <a
             href={cvPdf}
             download
-            className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 px-6 py-3 font-semibold text-white hover:brightness-110 active:brightness-95 transition"
+            className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 px-6 py-3 font-semibold text-white transition hover:brightness-110 active:brightness-95"
           >
             <FiDownload />
             Download CV
@@ -57,7 +57,8 @@ export default function CVSection() {
           <a
             href={cvPdf}
             target="_blank"
-            className="inline-flex items-center gap-2 rounded-xl border border-white/15 bg-white/5 px-6 py-3 font-semibold text-white/90 hover:bg-white/10 transition"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-xl border border-white/15 bg-white/5 px-6 py-3 font-semibold text-white/90 transition hover:bg-white/10"
           >
             <FiExternalLink />
             Open in new tab
@@ -69,19 +70,43 @@ export default function CVSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.55 }}
-          className="mt-10 rounded-2xl border border-white/10 bg-white/5 backdrop-blur overflow-hidden"
+          className="mt-10 overflow-hidden rounded-2xl border border-white/10 bg-white/5 backdrop-blur"
         >
-          <div className="flex items-center justify-between px-5 py-4 border-b border-white/10">
-            <div className="text-white font-semibold">CV Preview</div>
-            <div className="text-white/60 text-sm">Embedded PDF preview</div>
+          <div className="flex items-center justify-between border-b border-white/10 px-5 py-4">
+            <div className="font-semibold text-white">CV Preview</div>
+            <div className="text-sm text-white/60">Embedded PDF preview</div>
           </div>
 
-          <div className="w-full h-[75vh] bg-black">
-            <iframe
-              src={cvPdf}
-              className="w-full h-full"
-              title="Uchith Chethana CV"
-            />
+          <div className="h-[80vh] w-full bg-neutral-900">
+            <object data={`${cvPdf}#view=FitH`} type="application/pdf"
+              className="h-full w-full"
+            >
+              <div className="flex h-full flex-col items-center justify-center gap-4 p-6 text-center text-white">
+                <p className="text-lg font-medium">Preview could not be loaded.</p>
+                <p className="text-white/70">
+                  Please open the CV in a new tab or download it.
+                </p>
+
+                <div className="flex flex-wrap items-center justify-center gap-3">
+                  <a
+                    href={cvPdf}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-lg bg-blue-600 px-4 py-2 font-semibold text-white hover:bg-blue-700"
+                  >
+                    Open CV
+                  </a>
+
+                  <a
+                    href={cvPdf}
+                    download
+                    className="rounded-lg border border-white/20 px-4 py-2 font-semibold text-white hover:bg-white/10"
+                  >
+                    Download CV
+                  </a>
+                </div>
+              </div>
+            </object>
           </div>
         </motion.div>
       </div>

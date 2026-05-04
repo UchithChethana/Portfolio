@@ -18,94 +18,94 @@ export default function ReflectiveJournal() {
   const [active, setActive] = useState(0);
 
   const entries: JournalEntry[] = useMemo(
-    () => [
-      {
-        week: "Week 1",
-        title: "Starting PPW & building self-awareness",
-        focus:
-          "Understanding the purpose of PPW and identifying my strengths, gaps, and learning goals.",
-        learned: [
-          "How to evaluate myself using evidence (projects, coursework, feedback).",
-          "Why planning matters: goals → skills → actions → outcomes.",
-          "How a portfolio supports employability and professional identity.",
-        ],
-        evidence: [
-          "Reviewed my existing projects (React, Node, MongoDB) and identified what to improve (testing, deployment, documentation).",
-          "Outlined a personal brand direction for my portfolio (clean UI, premium style).",
-        ],
-        reflection:
-          "I realized that being good at coding is not enough on its own. PPW pushed me to think about how I communicate progress, how I structure growth, and how I prove skills with evidence. This helped me become more intentional about my academic identity and development.",
-        nextSteps: [
-          "Define measurable goals for the semester (e.g., deploy 2 projects with CI/CD).",
-          "Start tracking progress weekly in a journal format.",
-        ],
-      },
-      {
-        week: "Week 2",
-        title: "Portfolio structure & evidence-based presentation",
-        focus:
-          "Designing an academic portfolio that presents reflection, projects, and supporting evidence clearly.",
-        learned: [
-          "How to structure a portfolio: profile → projects → learning areas → evidence → contact.",
-          "Why storytelling matters: context → approach → outcome → reflection.",
-          "How layout and micro-interactions improve clarity and engagement.",
-        ],
-        evidence: [
-          "Implemented interactive sections such as searchable projects, learning filters, and guided journal content.",
-          "Reframed the site as a dedicated academic portfolio instead of hiding academic work behind a separate mode.",
-        ],
-        reflection:
-          "This week made me understand that the portfolio is a product. Small details like clarity, navigation, and consistency of design can change how an academic reviewer understands my work. I also learned how important it is to connect evidence with reflection instead of only listing achievements.",
-        nextSteps: [
-          "Add clear project outcomes (performance, features, user stories).",
-          "Create certificate and CV sections with proper evidence and dates.",
-        ],
-      },
-      {
-        week: "Week 3",
-        title: "Career planning & building employability skills",
-        focus:
-          "Creating a Career Development Plan based on roles, required skills, and realistic milestones.",
-        learned: [
-          "How to map a target role (Software Engineer) to skills: frontend, backend, databases, testing, DevOps.",
-          "How to identify skill gaps and turn them into weekly learning tasks.",
-          "How to use certifications strategically (not just collecting, but proving skill improvement).",
-        ],
-        evidence: [
-          "Drafted a career plan with short-term / mid-term / long-term goals.",
-          "Identified improvement areas: test automation, system design basics, deployment & monitoring.",
-        ],
-        reflection:
-          "PPW helped me stop thinking randomly about the future. I now plan with clear targets and actions. Instead of vague goals, I define practical development areas such as full-stack engineering, testing, and deployment, then turn them into measurable next steps. This approach reduces uncertainty and increases confidence.",
-        nextSteps: [
-          "Complete one certification focused on testing or cloud deployment.",
-          "Add measurable project metrics (load time, API performance, Lighthouse score).",
-        ],
-      },
-      {
-        week: "Week 4",
-        title: "Communication, professionalism & continuous improvement",
-        focus:
-          "Improving professional communication: email writing, clarity, documentation, and teamwork mindset.",
-        learned: [
-          "How to write formal emails and communicate issues clearly.",
-          "How to document features and decisions (README, technical notes).",
-          "How reflection helps continuous improvement: review → learn → adjust.",
-        ],
-        evidence: [
-          "Improved portfolio wording to be clearer, more concise, and better aligned with academic review.",
-          "Added structured academic sections so that reflection, certificates, and career planning are easy to assess.",
-        ],
-        reflection:
-          "The biggest change is how I present myself. PPW made me more intentional: I write clearly, I document work, and I think about outcomes. These skills strengthen both academic performance and future professional readiness.",
-        nextSteps: [
-          "Maintain a monthly reflection even after PPW ends.",
-          "Seek feedback from mentors and iterate the portfolio continuously.",
-        ],
-      },
-    ],
-    []
-  );
+  () => [
+    {
+      week: "Week 1",
+      title: "Understanding PPW and my academic direction",
+      focus:
+        "Learning the purpose of PPW and identifying my strengths, weaknesses, and future academic goals.",
+      learned: [
+        "I learned that self-reflection is important for understanding my current level and planning future improvement.",
+        "I understood that academic growth is not only about marks, but also about skills, discipline, and how I present my progress.",
+        "I learned how a portfolio can be used to show both my technical work and my personal development.",
+      ],
+      evidence: [
+        "Reviewed my previous coursework and projects to identify the areas I need to improve.",
+        "Started thinking clearly about how to present my academic journey, skills, and progress in one portfolio.",
+      ],
+      reflection:
+        "This week helped me understand myself better as an undergraduate student. I realized that having technical skills alone is not enough. It is also important to reflect on what I have done, what I have learned, and what I need to improve. PPW gave me a clearer direction for how to grow both academically and professionally.",
+      nextSteps: [
+        "Set clear academic and career goals for the semester.",
+        "Continue writing weekly reflections to track my progress properly.",
+      ],
+    },
+    {
+      week: "Week 2",
+      title: "Building my portfolio with clear evidence",
+      focus:
+        "Organizing my academic portfolio in a way that clearly shows my projects, learning, and personal growth.",
+      learned: [
+        "I learned how to structure a portfolio in a more meaningful and professional way.",
+        "I understood that evidence is very important when presenting skills and achievements.",
+        "I learned that design, layout, and content clarity can improve how others understand my work.",
+      ],
+      evidence: [
+        "Worked on improving the structure of my portfolio by organizing sections such as projects, academic journey, and reflective journal.",
+        "Focused on presenting my work in a cleaner and more professional style instead of only listing information.",
+      ],
+      reflection:
+        "This week made me realize that a portfolio is more than a simple website. It represents who I am as a student and future professional. I understood that I should not only show what I have done, but also explain what I learned from those experiences. This helped me think more deeply about how to connect my evidence with reflection.",
+      nextSteps: [
+        "Improve the presentation of project details with clearer outcomes and learning points.",
+        "Add more supporting evidence such as certificates, achievements, and career planning details.",
+      ],
+    },
+    {
+      week: "Week 3",
+      title: "Career planning and skill development",
+      focus:
+        "Thinking seriously about my future career path and identifying the skills I need to develop further.",
+      learned: [
+        "I learned how to connect my academic work with my future career goals.",
+        "I understood the importance of identifying skill gaps and working on them step by step.",
+        "I learned that career planning becomes stronger when it is based on realistic goals and continuous improvement.",
+      ],
+      evidence: [
+        "Prepared a career development direction based on my interest in software engineering and technical project work.",
+        "Identified areas I need to improve further, such as testing, deployment, documentation, and practical development experience.",
+      ],
+      reflection:
+        "Before this, I had general ideas about my future, but not a very clear plan. This week helped me think in a more organized way. I started understanding what kind of skills are expected in the industry and how I can prepare for them while still being an undergraduate. It gave me more confidence and motivation to improve myself with purpose.",
+      nextSteps: [
+        "Focus on improving one or two important technical skills each month.",
+        "Continue updating my portfolio so it reflects my growth and career readiness.",
+      ],
+    },
+    {
+      week: "Week 4",
+      title: "Professional communication and continuous improvement",
+      focus:
+        "Developing clearer communication, better presentation, and a mindset of continuous improvement.",
+      learned: [
+        "I learned that professional communication is an important part of academic and career success.",
+        "I understood the value of writing clearly, documenting properly, and presenting ideas in an organized way.",
+        "I learned that reflection should be continuous, because improvement happens step by step.",
+      ],
+      evidence: [
+        "Improved the wording and structure of my portfolio content to make it clearer and easier to understand.",
+        "Worked on presenting my academic progress in a more professional and reflective manner.",
+      ],
+      reflection:
+        "This week showed me that growth is not only about technical improvement. It is also about how I communicate, how I present myself, and how I continue learning from each experience. PPW helped me become more aware of my progress and more serious about building myself for the future.",
+      nextSteps: [
+        "Keep maintaining my reflective journal even after PPW is completed.",
+        "Regularly review my progress and update my portfolio based on new learning and achievements.",
+      ],
+    },
+  ],
+  []
+);
 
   const current = entries[active];
 
