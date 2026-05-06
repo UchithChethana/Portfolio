@@ -8,3 +8,22 @@
 [00:00:20.743] Browser WARN    Image with src "/certificates/cer6.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:00:20.743] Browser WARN    Image with src "/certificates/cer5.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:00:20.743] Browser WARN    Image with src "/certificates/cer7.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:25:10.389] Browser ERROR   ./app/globals.css
+Module not found: Can't resolve 'C:\Users\wgucg\Documents\GitHub\Portfolio\app\globals.css'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:10.390] Browser ERROR   ./app/globals.css
+Module not found: Module not found: Error: Can't resolve 'C:\Users\wgucg\Documents\GitHub\Portfolio\app\globals.css'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:11.268] Browser ERROR   ./app/globals.css
+Module not found: Can't resolve 'C:\Users\wgucg\Documents\GitHub\Portfolio\app\globals.css'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:11.268] Browser ERROR   ./app/globals.css
+Module not found: Module not found: Error: Can't resolve 'C:\Users\wgucg\Documents\GitHub\Portfolio\app\globals.css'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:29.294] Browser WARN    Image with src "/Uchith.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:25:29.294] Browser WARN    Image with src "/Uchith.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
