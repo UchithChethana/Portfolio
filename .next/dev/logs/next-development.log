@@ -1,29 +1,16 @@
-[00:00:02.071] Server  LOG     ✓ Ready in 1716ms
-[00:00:18.920] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:19.690] Browser WARN    Image with src "/Uchith.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:20.743] Browser WARN    Image with src "/certificates/cer3.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:20.743] Browser WARN    Image with src "/certificates/cer2.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:20.743] Browser WARN    Image with src "/certificates/cer1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:20.743] Browser WARN    Image with src "/certificates/cer4.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:20.743] Browser WARN    Image with src "/certificates/cer6.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:20.743] Browser WARN    Image with src "/certificates/cer5.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:20.743] Browser WARN    Image with src "/certificates/cer7.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:25:10.389] Browser ERROR   ./app/globals.css
-Module not found: Can't resolve 'C:\Users\wgucg\Documents\GitHub\Portfolio\app\globals.css'
-
-https://nextjs.org/docs/messages/module-not-found
-[00:25:10.390] Browser ERROR   ./app/globals.css
-Module not found: Module not found: Error: Can't resolve 'C:\Users\wgucg\Documents\GitHub\Portfolio\app\globals.css'
-
-https://nextjs.org/docs/messages/module-not-found
-[00:25:11.268] Browser ERROR   ./app/globals.css
-Module not found: Can't resolve 'C:\Users\wgucg\Documents\GitHub\Portfolio\app\globals.css'
-
-https://nextjs.org/docs/messages/module-not-found
-[00:25:11.268] Browser ERROR   ./app/globals.css
-Module not found: Module not found: Error: Can't resolve 'C:\Users\wgucg\Documents\GitHub\Portfolio\app\globals.css'
-
-https://nextjs.org/docs/messages/module-not-found
-[00:25:29.294] Browser WARN    Image with src "/Uchith.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:25:29.294] Browser WARN    Image with src "/Uchith.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:14.990] Server  LOG     ✓ Ready in 10.9s
+[00:00:18.168] Server  LOG     ○ Compiling / ...
+[00:02:01.870] Browser WARN    Image with src "/Uchith.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:02.131] Browser WARN    Image with src "/Uchith.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:09:41.027] Server  WARN    ⚠ Fast Refresh had to perform a full reload when itHub\\Portfolio\\src\\components\\About.tsx","ids":["default"]}, itHub\\Portfolio\\src\\components\\academic\\CareerPlan.tsx","ids":["default"]}, itHub\\Portfolio\\src\\components\\academic\\Certificates.tsx","ids":["default"]}, itHub\\Portfolio\\src\\components\\academic\\CVSection.tsx","ids":["default"]}, itHub\\Portfolio\\src\\components\\academic\\ReflectiveJournal.tsx","ids":["default"]}, itHub\\Portfolio\\src\\components\\Contact.tsx","ids":["default"]}, itHub\\Portfolio\\src\\components\\Hero.tsx","ids":["default"]}, itHub\\Portfolio\\src\\components\\Navbar.tsx","ids":["default"]}, itHub\\Portfolio\\src\\components\\Projects.tsx","ids":["default"]}, itHub\\Portfolio\\src\\components\\Skills.tsx","ids":["default"]} changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:09:42.094] Server  ERROR   ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:09:44.760] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[00:09:45.271] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:10:05.284] Browser WARN    Image with src "/Uchith.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:05.284] Browser WARN    Image with src "/Uchith.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:16:08.323] Server  WARN    ⚠ Fast Refresh had to perform a full reload when itHub\\Portfolio\\src\\components\\About.tsx","ids":["default"]}, itHub\\Portfolio\\src\\components\\academic\\CareerPlan.tsx","ids":["default"]}, itHub\\Portfolio\\src\\components\\academic\\Certificates.tsx","ids":["default"]}, itHub\\Portfolio\\src\\components\\academic\\CVSection.tsx","ids":["default"]}, itHub\\Portfolio\\src\\components\\academic\\ReflectiveJournal.tsx","ids":["default"]}, itHub\\Portfolio\\src\\components\\Contact.tsx","ids":["default"]}, itHub\\Portfolio\\src\\components\\Hero.tsx","ids":["default"]}, itHub\\Portfolio\\src\\components\\Navbar.tsx","ids":["default"]}, itHub\\Portfolio\\src\\components\\Projects.tsx","ids":["default"]}, itHub\\Portfolio\\src\\components\\Skills.tsx","ids":["default"]} changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:16:13.871] Browser WARN    Image with src "/Uchith.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
