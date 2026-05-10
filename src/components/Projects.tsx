@@ -57,11 +57,61 @@ const projects: Project[] = [
   {
     title: "My Todo App",
     description:
-      "",
-    tech: ["Python", "Jupyter Notebook", "OpenCV", "NumPy"],
+      "A simple Flask-based todo application for organizing daily tasks with a lightweight Python backend.",
+    tech: ["Python", "Flask"],
     github: "https://github.com/UchithChethana/MyTodoApp.git",
     highlights: [
-        "A simple todo app built with Python and Flask",  
+      "Task creation and completion workflow",
+      "Flask backend structure",
+      "Simple productivity-focused interface",
+    ],
+  },
+  {
+    title: "Govimithuru Frontend",
+    description:
+      "A frontend application for an agriculture-focused platform designed to support farmers with accessible digital services and information.",
+    tech: ["JavaScript", "React", "Frontend"],
+    github: "https://github.com/UchithChethana/Govimithuru_frontend-main.git",
+    highlights: [
+      "Agriculture-focused user interface",
+      "Reusable frontend component structure",
+      "Responsive pages for practical platform workflows",
+    ],
+  },
+  {
+    title: "Lasanthe Tire Shop",
+    description:
+      "A tire shop web application focused on presenting products, services, and shop information through a clean customer-facing interface.",
+    tech: ["JavaScript", "React", "Frontend"],
+    github: "https://github.com/UchithChethana/LasantheTireShop.git",
+    highlights: [
+      "Customer-facing shop pages",
+      "Product and service presentation",
+      "Responsive business website layout",
+    ],
+  },
+  {
+    title: "E-Doc Hub",
+    description:
+      "A digital document hub project built to manage document-related workflows through a structured web application experience.",
+    tech: ["JavaScript", "React", "Web App"],
+    github: "https://github.com/UchithChethana/edochub.git",
+    highlights: [
+      "Document workflow interface",
+      "Organized web app structure",
+      "Practical document management concept",
+    ],
+  },
+  {
+    title: "Hostel Nest",
+    description:
+      "A hostel management project designed to support accommodation-related workflows such as hostel listings, details, and user interaction.",
+    tech: ["JavaScript", "React", "Web App"],
+    github: "https://github.com/NimtheraGunasena/Hostel-Nest.git",
+    highlights: [
+      "Hostel-focused management workflow",
+      "Accommodation listing structure",
+      "Collaborative academic project implementation",
     ],
   },
 ];
